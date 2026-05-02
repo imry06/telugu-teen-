@@ -58,8 +58,6 @@ nav .nav-banner{
   text-align: center;
 }
 nav ul{
-  /* list-style: none;
-  display: flex; */
   gap: 20px;
 }
 
@@ -78,4 +76,24 @@ footer{
 
 .footer-content{
     text-align: center;
+}
+
+
+/* responsive design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav .nav-banner {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
