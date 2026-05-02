@@ -30,6 +30,39 @@ header {
   color: #fff;
 }
 
+/* nav  */
+nav{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 3px;
+  height: 80vh;
+}
+
+nav .nav-banner{
+  margin-right: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url("./img/nav02.jpg");
+    width: 30%;
+    height: 100%;
+    background-position: center;
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.nav-banner h1{
+  text-align: center;
+}
+.nav-banner .brandname{
+  text-align: center;
+}
+nav ul{
+  /* list-style: none;
+  display: flex; */
+  gap: 20px;
+}
+
 
 /* footer  */
 footer{
