@@ -61,6 +61,47 @@ nav ul{
   gap: 20px;
 }
 
+/* alphabet page  */
+
+.alphabets-section {
+  padding: 40px 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.alphabet-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.note {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+}
 
 /* footer  */
 footer{
