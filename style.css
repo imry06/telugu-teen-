@@ -103,6 +103,47 @@ nav ul{
   color: #555;
 }
 
+/* pronunciation page  */
+.pronunciation-section {
+  padding: 40px 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.pronunciation-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.note {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+}
+
 /* footer  */
 footer{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("./img/img02.jpg");
